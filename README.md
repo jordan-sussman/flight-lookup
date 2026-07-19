@@ -27,7 +27,6 @@ Airline:    Alaska Airlines
 
 - Radius: 8 km (can be overriden via `--radius`)
 - Last seen within last: 5 minutes
-- Request timeout: 5 seconds
 
 ## Notes
 
