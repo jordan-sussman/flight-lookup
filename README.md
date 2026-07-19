@@ -34,4 +34,5 @@ Route:      Seattle-Tacoma International Airport -> Portland International Airpo
 
 - Requires Python 3.6+
 - No API key or external dependencies
+- Route data has potential to be stale due to hexdb.io's more periodic updates
 - Data may not be fully available for all aircraft as hexdb.io's database is primarily built for commercial traffic
