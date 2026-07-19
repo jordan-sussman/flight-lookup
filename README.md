@@ -24,9 +24,14 @@ Route:      Seattle-Tacoma International Airport -> Portland International Airpo
 2. Queries [OpenSky Network](https://opensky-network.org/) for aircraft within the radius, seen airborne in the last 5 minutes
 3. Looks up aircraft type, airline, and route by callsign via [hexdb.io](https://hexdb.io/)
 
+## Defaults
+
+- Radius: 8 km (can be overriden via `--radius`)
+- Last seen within last: 5 minutes
+- Request timeout: 5 seconds
+
 ## Notes
 
 - Requires Python 3.6+
 - No API key or external dependencies
-- Shows flights overhead within the last 5 minutes
 - Data may not be fully available for all aircraft as hexdb.io's database is primarily built for commercial traffic
