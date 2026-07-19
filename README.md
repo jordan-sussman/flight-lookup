@@ -28,4 +28,5 @@ Route:      Seattle-Tacoma International Airport -> Portland International Airpo
 
 - Requires Python 3.6+
 - No API key or external dependencies
+- Shows flights overhead within the last 5 minutes
 - Data may not be fully available for all aircraft as hexdb.io's database is primarily built for commercial traffic
