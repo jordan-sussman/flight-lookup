@@ -32,4 +32,4 @@ Airline:    Alaska Airlines
 
 - Requires Python 3.6+
 - No API key or external dependencies
-- Data may not be available for all aircraft as hexdb.io's database is primarily built for commercial traffic
+- Some data can be unavailable for aircraft as hexdb.io's database is primarily built for commercial traffic
