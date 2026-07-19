@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Find current flights overhead by zip code. Usage: python flight-lookup.py 00000 [--radius km]"""
+"""Find current flights overhead by zip code. Usage: python3 flight-lookup.py 00000 [--radius km]"""
 
 import argparse
 import json
