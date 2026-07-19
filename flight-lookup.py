@@ -61,7 +61,8 @@ def get_details(icao24, callsign):
 
     route = get_json_or_none(f"https://hexdb.io/api/v1/route/icao/{callsign}")
     if route and route.get("route"):
-        origin, dest = route["route"].split("-")
+        legs = route["route"].split("-")
+        origin, dest = legs[0], legs[-1]
         details["origin"] = (
             get_json_or_none(f"https://hexdb.io/api/v1/airport/icao/{origin}") or {}
         ).get("airport", origin)
